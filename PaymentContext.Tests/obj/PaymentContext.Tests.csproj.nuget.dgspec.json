@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {}
+    "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+    "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+        "projectUniqueName": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
         "projectName": "PaymentContext.Domain",
-        "projectPath": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
+        "projectPath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
         "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Domain\\obj\\",
+        "outputPath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-                "projectPath": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+              "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+                "projectPath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
               }
             }
           }
@@ -43,6 +43,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,14 +68,14 @@
         }
       }
     },
-    "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+    "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectUniqueName": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "projectName": "PaymentContext.Shared",
-        "projectPath": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectPath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\obj\\",
+        "outputPath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,6 +103,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -116,14 +128,14 @@
         }
       }
     },
-    "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {
+    "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Tests\\PaymentContext.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+        "projectUniqueName": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
         "projectName": "PaymentContext.Tests",
-        "projectPath": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
+        "projectPath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Tests\\PaymentContext.Tests.csproj",
         "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Tests\\obj\\",
+        "outputPath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,11 +152,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
-                "projectPath": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
+              "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Domain\\PaymentContext.Domain.csproj": {
+                "projectPath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Domain\\PaymentContext.Domain.csproj"
               },
-              "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
-                "projectPath": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
+              "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+                "projectPath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\PaymentContext.Shared.csproj"
               }
             }
           }
@@ -174,6 +186,10 @@
             "coverlet.collector": {
               "target": "Package",
               "version": "[1.3.0, )"
+            },
+            "flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
             }
           },
           "imports": [

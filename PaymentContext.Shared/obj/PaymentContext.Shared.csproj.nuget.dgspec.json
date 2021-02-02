@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {}
+    "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {}
   },
   "projects": {
-    "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
+    "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\PaymentContext.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectUniqueName": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "projectName": "PaymentContext.Shared",
-        "projectPath": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
+        "projectPath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\PaymentContext.Shared.csproj",
         "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\CSharp\\PaymentContext\\PaymentContext.Shared\\obj\\",
+        "outputPath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "flunt": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
