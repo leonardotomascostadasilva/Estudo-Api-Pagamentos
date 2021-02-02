@@ -202,3 +202,4 @@ D:\Code\CSharp\ModelandoDominiosRicos\Estudo-Modelando-Dominios-Ricos\PaymentCon
 D:\Code\CSharp\ModelandoDominiosRicos\Estudo-Modelando-Dominios-Ricos\PaymentContext.Tests\obj\Debug\net5.0\ref\PaymentContext.Tests.dll
 D:\Code\CSharp\ModelandoDominiosRicos\Estudo-Modelando-Dominios-Ricos\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.pdb
 D:\Code\CSharp\ModelandoDominiosRicos\Estudo-Modelando-Dominios-Ricos\PaymentContext.Tests\obj\Debug\net5.0\PaymentContext.Tests.genruntimeconfig.cache
+D:\Code\CSharp\ModelandoDominiosRicos\Estudo-Modelando-Dominios-Ricos\PaymentContext.Tests\bin\Debug\net5.0\Flunt.dll
