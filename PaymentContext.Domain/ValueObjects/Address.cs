@@ -17,13 +17,7 @@ namespace PaymentContext.Domain.ValueObjects
 
             AddNotifications(new Contract()
                 .Requires()
-                .IsNull(Street,"Street","Rua não pode ser nulo")
-                .IsNull(Number,"Number","Numero não pode ser nulo")
-                .IsNull(Neighborhood,"Neighborhood","Bairro não pode ser nulo")
-                .IsNull(City,"City","Cidade não pode ser nulo")
-                .IsNull(State,"State","Estado não pode ser nula")
-                .IsNull(Country,"Country","País não pode ser nulo")
-                .IsNull(ZipCode,"ZipCode","CEP não pode ser nulo")
+                .HasMinLen(Street, 3, "Address.Street", "A rua deve conter pelo menos 3 caracteres")        
             );
         }
 

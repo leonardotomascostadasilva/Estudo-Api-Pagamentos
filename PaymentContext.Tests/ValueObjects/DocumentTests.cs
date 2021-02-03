@@ -18,11 +18,7 @@ namespace PaymentContext.Tests
         }
 
         [TestMethod]
-<<<<<<< Updated upstream
-        public void ShouldReturnErrorWhenCNPJIsValid()
-=======
         public void ShouldReturnSuccessWhenCNPJIsValid()
->>>>>>> Stashed changes
         {
             var doc = new Document("34110468000150", EDocumentType.CNPJ);
             Assert.IsTrue(doc.Valid);
@@ -36,17 +32,13 @@ namespace PaymentContext.Tests
         }
 
         [TestMethod]
-<<<<<<< Updated upstream
-        public void ShouldReturnErrorWhenCPFIsValid()
-=======
         [DataTestMethod]
         [DataRow("34225545806")]
         [DataRow("54139739347")]
         [DataRow("01077284608")]
         public void ShouldReturnSuccessWhenCPFIsValid(string cpf)
->>>>>>> Stashed changes
         {
-            var doc = new Document("85497452000", EDocumentType.CPF);
+            var doc = new Document(cpf, EDocumentType.CPF);
             Assert.IsTrue(doc.Valid);
         }
     }

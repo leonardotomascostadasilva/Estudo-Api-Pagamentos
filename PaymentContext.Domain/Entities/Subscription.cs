@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using Flunt.Validations;
 using PaymentContext.Shared.Entities;
 
@@ -8,6 +9,7 @@ namespace PaymentContext.Domain.Entities
     public class Subscription : Entity
     {
         private IList<Payment> _payments;
+
         public Subscription(DateTime? expireDate)
         {
             CreateDate = DateTime.Now;
@@ -21,26 +23,16 @@ namespace PaymentContext.Domain.Entities
         public DateTime LastUpdateDate { get; private set; }
         public DateTime? ExpireDate { get; private set; }
         public bool Active { get; private set; }
-<<<<<<< Updated upstream
-        public IReadOnlyCollection<Payment> Payments { get; private set; }
-=======
         public IReadOnlyCollection<Payment> Payments { get { return _payments.ToArray(); } }
->>>>>>> Stashed changes
 
         public void AddPayment(Payment payment)
         {
             AddNotifications(new Contract()
                 .Requires()
-<<<<<<< Updated upstream
-                .IsGreaterThan(DateTime.Now, payment.PaidDate,"Subscription.Payments", "A data do pagamento deve ser futura")
-            );
-            
-=======
                 .IsGreaterThan(DateTime.Now, payment.PaidDate, "Subscription.Payments", "A data do pagamento deve ser futura")
             );
 
             // if(Valid) // Só adiciona se for válido
->>>>>>> Stashed changes
             _payments.Add(payment);
         }
 
@@ -56,5 +48,4 @@ namespace PaymentContext.Domain.Entities
             LastUpdateDate = DateTime.Now;
         }
     }
-
 }

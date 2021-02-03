@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iT1pcBtRpEQXEyJ86lB/Rv4wLhO+oAcCWfQWDLxYIOtv3oRtep8ygqJOu5ZLDKZpIK6banyQ0DLsQbi3Z6y+0g==",
+  "dgSpecHash": "lopuqs9+lGsVkYY+9yhNTzQNqwQJuHjoCigMOe0sLI00/7jrY0LO5qJ3+ujgYfR9Qw0kEVUCGOyAeXuyjreheg==",
   "success": true,
   "projectFilePath": "D:\\Code\\CSharp\\ModelandoDominiosRicos\\Estudo-Modelando-Dominios-Ricos\\PaymentContext.Domain\\PaymentContext.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Leonardo\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
+    "C:\\Users\\Leonardo\\.nuget\\packages\\flunt\\1.0.2\\flunt.1.0.2.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
