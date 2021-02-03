@@ -5,7 +5,7 @@ namespace PaymentContext.Domain.ValueObjects
 {
     public class Email : ValueObject
     {
-        public Email(string address, string lastName)
+        public Email(string address)
         {
             Address = address;
 
@@ -14,7 +14,8 @@ namespace PaymentContext.Domain.ValueObjects
                 .IsEmail(Address,"Email.Address","Email inválido")
             );
         }
-        public string Address { get; private set; }
+
+        private string Address { get; set; }
         
     }
 }
